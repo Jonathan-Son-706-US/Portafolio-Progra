@@ -1,0 +1,4 @@
+﻿  proyecto-personal-bucles3.cpp
+C:\Trabajos de c++\proyecto-personal-bucles3\proyecto-personal-bucles3\proyecto-personal-bucles3.cpp(11,12): warning C4101: 'a': variable local sin referencia
+C:\Trabajos de c++\proyecto-personal-bucles3\proyecto-personal-bucles3\proyecto-personal-bucles3.cpp(11,9): warning C4101: 'i': variable local sin referencia
+  proyecto-personal-bucles3.vcxproj -> C:\Trabajos de c++\proyecto-personal-bucles3\x64\Debug\proyecto-personal-bucles3.exe
