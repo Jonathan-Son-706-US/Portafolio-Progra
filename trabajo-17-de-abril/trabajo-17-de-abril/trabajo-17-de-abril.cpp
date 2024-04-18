@@ -134,7 +134,7 @@ int main()
         cout << "Desea repetir de nuevo el menu Si = 4 || No = 2" << endl;  cin >> p; 
     } while (p == 4); 
     cout << "FIN DEL PROGRAMA" << endl; 
-    /*INTENTE LO MAS QUE PUDE :< */
+    /*INTENTE LO MAS QUE PUDE :<  SE MEZCLAVA MUCHO EL MENU PERO AL FINAL QUEDO ASI*/
     return 0; 
 }
 
