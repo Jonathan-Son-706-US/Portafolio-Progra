@@ -1,0 +1,29 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        System.out.println("Hola mundo");
+        
+        Integer numero = 0;
+        System.out.println(numero);
+        
+        String texto = "El numero es: ";
+        
+        System.out.println(texto + numero);
+        
+        //Convertir de numero a texto
+        String numero_texto = numero.toString();
+        
+        //Integer a Double
+        //1 -> 1.00
+        
+        //Double a Integer
+        //3.54 -> 3
+        
+        //Para variables numericas usen Double
+        //Para variables texto usen String
+        
+        //3.54 -> '3.54'
+        
+    }
+}
