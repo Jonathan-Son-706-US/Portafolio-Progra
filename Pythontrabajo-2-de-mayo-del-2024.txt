@@ -1,0 +1,38 @@
+print("Calculadora sencilla de realizar")
+import math
+def suma(num1,num2): 
+    return (num1 + num2)
+def resta(num1,num2): 
+    return (num1 - num2)
+def multiplicacion(num1,num2): 
+    return (num1* num2)
+def divison(num1, num2):
+    return (num1/num2)
+facto = 1 ; 
+num1 = int(input('Ingresar un valor para el primer amongus\n'))
+num2 = int(input('Ingresar un valor para el segundo amongus\n'))
+print (f"Lo siguientes valores presentados son los siguientes:")
+print (f"{num1}")
+print(f"{num2}")
+resultadox = pow(num1, num2)
+print(f'La suma de los numeros anteriormente presentados es la siguiente: {suma(num1,num2)}')
+print (f'La resta de los numeros anteriormente presentados es la siguiente: {resta(num1,num2)}')
+print (f'La multiplicacion de los numeros anteriormente presentados es la siguiente: {multiplicacion(num1,num2)}')
+print(f'La division de los valores ingresados es de:{divison(num1, num2)}')
+num3 = int(input(f'Ingresar el valor para elevar al primer numero: {num1}\n'))
+resultado = pow(num1, num3)
+print(f'El resultado de la elevacion es: {resultado}')
+num4 = int(input(f'Ingresar un valor para elevar al segundo numero {num2}\n'))
+resultado2 = pow(num2, num4)
+print(f'El resultado de la elevacion es de: {resultado2}\n')
+print(f'El resultado de la elevacion de ambos numeros donde {num1} elevado {num2} es de:\n {resultadox}')
+print(f'Factorial de los siguientes numeros:\n{num1}\n y el siguiente: \n {num2}')
+
+facttoSUS = math.factorial(num1)
+print(f'El factorial del numero: {num1} es el siguiente: {facttoSUS}')
+
+facctoSUS2 = math.factorial(num2)
+print(f'El factorial del numero {num2} es:\n {facctoSUS2}')
+num5 = int(input('Ingresar un valor para un factorial\n'))
+factotus = math.factorial(num5)
+print(f'El factorial del numero {num5} es:\n {factotus}')
