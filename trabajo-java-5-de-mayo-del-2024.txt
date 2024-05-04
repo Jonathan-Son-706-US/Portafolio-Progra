@@ -1,0 +1,83 @@
+package trabajojava5demayo;
+import java.util.Scanner ; 
+public class trabajo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Integer x = 0 , mult = 0 ;
+		System.out.println("Programa enfocado a diferentes operaciones  ");
+		System.out.println("Las opciones disponibles son las siguientes ");
+		System.out.println("Multiplos de un numero = 1"); 
+		System.out.println("Respuesta de si o no = 2"); 
+		System.out.println("El angulo faltante = 3"); 
+		Scanner pux = new Scanner(System.in);
+		Integer de = pux.nextInt();
+		switch(de)
+		{ 
+		
+		case 1 :
+		System.out.println("Se tomará en cuenta solo 100 multiplos");
+		System.out.println("ESCRIBIR UN NUMERO:");
+		Scanner dex = new Scanner(System.in);
+		Integer pe = dex.nextInt();
+		
+		for(int i = 1 ; i <=100 ; i++)
+		{
+			mult = pe * i ; 
+			System.out.println(mult);
+		}
+		break ; 
+		
+		case 2 :
+			Scanner peus = new Scanner(System.in);
+		System.out.println("Escrbir un Si y No");
+		System.out.println("Escribir un Si o No");
+		
+		String us = peus.nextLine();
+		if (us.equals("Si")) 
+		{
+			System.out.println("Bienvenido jefe");
+		}
+		else
+		{
+			System.out.println("Adios fefe");
+		}
+		break ; 
+		
+		case 3:
+			
+		System.out.println("Encontrar el angulo");
+		System.out.println("Ingresar el primer angulo");
+		Scanner gato = new Scanner(System.in);
+		Integer deusp = gato.nextInt();
+		System.out.println("Escribir el segundo angulo");
+		Scanner xus = new Scanner(System.in);
+		Integer pusst = xus.nextInt();
+		x = 180 - (deusp + pusst);
+		
+		if (x < 0 )
+		{
+			System.out.println("ERROR DE CALCULO INGRESAR PORFAVOR CORRECTAMENTE LA INFORMACIOn");
+			
+		}
+		else if (x > 0 )
+		{
+			System.out.println("El ángulo faltante de los 3 es el siguiente:") ; 
+			System.out.println(x);
+		}
+		
+		break ; 
+		
+		default :
+			
+		System.out.println("ERROR POR FAVOR INGRESAR DATOS CORRECTOS JEFE");
+		
+		break ; 
+		
+		}
+		
+		System.out.println("FIN DEL PROGRAMA"); 
+	}
+
+}
