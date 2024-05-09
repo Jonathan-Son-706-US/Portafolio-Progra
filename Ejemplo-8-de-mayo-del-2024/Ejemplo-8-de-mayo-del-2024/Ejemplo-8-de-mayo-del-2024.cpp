@@ -7,10 +7,11 @@
 #include <string.h>
 using namespace std;
 
-void menu()
+
+void menu2()
 {
     cout << "Programa para recursividad" << endl;
-    cout << "Ingresar una cantidad maxima de 5 valores:" << endl; 
+    cout << "Ingrese la cantidad de los numeros:" << endl;
 
 }
 void gus()
@@ -26,15 +27,30 @@ void gus()
         cout << "Numero ingresado en la posicion:" << i << ":" << endl; cout << gustex[i] << endl;
     }
 }
+void sust()
+{
+}
 int main()
 {
-    
-    
+    bool gus2 = true; 
+    int x = 0; 
+    do {
         int gustex[15];
-        menu();
+        
+        menu2();
         gus();
         cout << "FIn del programa sus" << endl;
-        
+        cout << "Ingresar si desea repetir el programa 1 = Si || 2 = No" << endl; 
+        cin >> x; 
+        if (x == 1)
+        {
+            gus2; 
+        }
+        else
+        {
+            gus2 = false; 
+        }
+    } while (gus2 == true); 
     return 0;
 }
 
