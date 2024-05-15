@@ -1,0 +1,7 @@
+﻿  trabajo-15-de-mayo.cpp
+C:\Trabajos de c++\trabajo-15-de-mayo\trabajo-15-de-mayo\trabajo-15-de-mayo.cpp(25,13): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Trabajos de c++\trabajo-15-de-mayo\trabajo-15-de-mayo\trabajo-15-de-mayo.cpp(31,13): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Trabajos de c++\trabajo-15-de-mayo\trabajo-15-de-mayo\trabajo-15-de-mayo.cpp(87,47): warning C4101: 'arregloL': variable local sin referencia
+C:\Trabajos de c++\trabajo-15-de-mayo\trabajo-15-de-mayo\trabajo-15-de-mayo.cpp(87,62): warning C4101: 'arregloL2': variable local sin referencia
+C:\Trabajos de c++\trabajo-15-de-mayo\trabajo-15-de-mayo\trabajo-15-de-mayo.cpp(109,6): warning C4101: 'arreglous': variable local sin referencia
+  trabajo-15-de-mayo.vcxproj -> C:\Trabajos de c++\trabajo-15-de-mayo\x64\Debug\trabajo-15-de-mayo.exe
